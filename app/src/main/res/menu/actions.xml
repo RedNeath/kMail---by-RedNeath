@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/explore_backwards"
+            android:icon="@drawable/baseline_chevron_left_24_light"
+            android:onClick="navigateBackwards"
+            android:title="@string/navigate_backwards" />
+        <item
+            android:id="@+id/explore_forwards"
+            android:icon="@drawable/baseline_chevron_right_24_light"
+            android:onClick="navigateForwards"
+            android:title="@string/navigate_forwards" />
+        <item
+            android:id="@+id/refresh"
+            android:icon="@drawable/baseline_refresh_24_ligtht"
+            android:onClick="refreshPage"
+            android:title="@string/refresh_cap" />
+    </group>
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/baseline_search_24_light"
+        android:title="@string/search_in_page"
+        android:onClick="showSearch" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_share_24_light"
+        android:title="@string/share"
+        android:onClick="sharePage" />
+</menu>

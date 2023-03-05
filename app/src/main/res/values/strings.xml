@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">kMail - by RedNeath</string>
+    <string name="page_name">Page Name</string>
+    <string name="https_page_name_net">https://page-name.net</string>
+    <string name="backward">backward</string>
+    <string name="forward">forward</string>
+    <string name="refresh">refresh</string>
+    <string name="search_in_page">Search in page</string>
+    <string name="share">Share</string>
+    <string name="navigate_backwards">Navigate backwards</string>
+    <string name="navigate_forwards">Navigate forwards</string>
+    <string name="refresh_cap">Refresh</string>
+    <string name="search">Search...</string>
+    <string name="back_to_last_infomaniak_page">Back to last infomaniak page</string>
+    <string name="display_more_options">Display more options</string>
+    <string name="go_back_to_normal_display">Go back to normal display</string>
+    <string name="find_previous_element">find previous element</string>
+    <string name="find_next_element">find next element</string>
+</resources>
